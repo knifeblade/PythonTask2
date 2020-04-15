@@ -24,7 +24,7 @@ container = []
 while condition:
     registration = get_registration()
     password = auto_password(registration)
-    print(f"Your password is: str{password}")
+    print(f"Your password is: {password}")
     password_accept = input("Do you accept the given password. Enter Y or N: ")
     password_loop = True
     while password_loop:
